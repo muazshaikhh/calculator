@@ -2,40 +2,6 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Basic Calculator - README</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 700px;
-      margin: 2rem auto;
-      line-height: 1.6;
-    }
-    h1, h2 {
-      color: #333;
-    }
-    code {
-      background: #f4f4f4;
-      padding: 2px 4px;
-      border-radius: 4px;
-      font-size: 0.95em;
-    }
-    pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-    a {
-      color: #0366d6;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
 <body>
   <h1>Basic Calculator</h1>
   <p>A simple calculator website built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. 
