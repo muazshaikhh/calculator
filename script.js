@@ -35,12 +35,13 @@ function operate(num1, num2, op) {
 }
 
 function populateDisplay(text) {
-    if (shouldResetDisplay) {
-        t.textContent = text; 
-        shouldResetDisplay = false;
-    } else {
-        t.textContent += text; 
-    }
+    if (t.textContent.length < 11)
+        if (shouldResetDisplay) {
+            t.textContent = text; 
+            shouldResetDisplay = false;
+        } else {
+            t.textContent += text; 
+        }
 }
 
 function handleOperator(operator) {
@@ -81,6 +82,10 @@ document.getElementById("=").addEventListener("click", () => {
     }
 });
 
+window.onload = function() {
+    t.textContent = "";
+    console.log("Page and all resources are fully loaded.");
+};
 document.getElementById("del").addEventListener("click", () => {
     t.textContent = t.textContent.slice(0, -1); 
 });
