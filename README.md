@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # calculator
 
 <!DOCTYPE html>
@@ -36,6 +37,10 @@
     }
   </style>
 </head>
+=======
+<!DOCTYPE html>
+<html lang="en">
+>>>>>>> 35c47c916a7123739c80ab2ec004f3a155e2afa9
 <body>
   <h1>Basic Calculator</h1>
   <p>A simple calculator website built with <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong>. 
@@ -43,6 +48,7 @@
 
   <h2>Live Demo</h2>
   <p><a href="https://muazshaikhh.github.io/calculator/" target="https://muazshaikhh.github.io/calculator/">View here</a></p>
+<<<<<<< HEAD
 
   <h2>How to Use</h2>
   <ol>
@@ -52,5 +58,7 @@
   <ol start="2">
     <li>Open <code>index.html</code> in your browser.</li>
   </ol>
+=======
+>>>>>>> 35c47c916a7123739c80ab2ec004f3a155e2afa9
 </body>
 </html>
