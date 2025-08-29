@@ -1,5 +1,3 @@
-# calculator
-
 <!DOCTYPE html>
 <html lang="en">
 <body>
@@ -14,7 +12,7 @@
   <ol>
     <li>Clone the repo:</li>
   </ol>
-  <pre><code>git clone https://github.com/your-username/calculator.git</code></pre>
+  <pre><code>git clone https://github.com/muazshaikhh/calculator.git</code></pre>
   <ol start="2">
     <li>Open <code>index.html</code> in your browser.</li>
   </ol>
